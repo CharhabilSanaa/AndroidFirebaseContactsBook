@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "594035241737",
+    "firebase_url": "https://contactsbook-cf3a5.firebaseio.com",
+    "project_id": "contactsbook-cf3a5",
+    "storage_bucket": "contactsbook-cf3a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594035241737:android:4958347870908633ec59d8",
+        "android_client_info": {
+          "package_name": "com.charhabil.contactsbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594035241737-9dujke6ib1li61sjb3k39a6uedcf3jna.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.charhabil.contactsbook",
+            "certificate_hash": "672ced0365fd64e6c86100313d31736b350c7996"
+          }
+        },
+        {
+          "client_id": "594035241737-ic8khp3ptf4dp05dvk9vmsnsats1p9so.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgSzxhhKXBW3wZ5PXwpyfEUFiwodjiOYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594035241737-ic8khp3ptf4dp05dvk9vmsnsats1p9so.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

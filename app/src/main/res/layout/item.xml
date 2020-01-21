@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/icon_hotel"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:layout_marginEnd="25dp"
+        android:layout_toStartOf="@+id/itemNumber"
+        android:src="@drawable/free4" />
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/icon"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="TextView"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:fontFamily="casual"
+        tools:ignore="UnknownId" />
+
+    <RatingBar
+        android:id="@+id/rating_hotel"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="139dp"
+        android:outlineAmbientShadowColor="@color/colorPrimary"
+        android:outlineSpotShadowColor="@color/green" />
+
+    <TextView
+        android:id="@+id/itemNumber"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itemName"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/green"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/itemEmei"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itemNumber"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:ignore="UnknownId" />
+
+</RelativeLayout>

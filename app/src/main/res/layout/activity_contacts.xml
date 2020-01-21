@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_width="600dp"
+        android:layout_height="172dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/appel" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello world"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/green"
+        android:gravity="center"
+        android:textSize="24sp" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Display Contacts"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/select"/>
+
+
+</LinearLayout>
